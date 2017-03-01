@@ -8199,3 +8199,37 @@
 ^(.*\.)?zyzc9\.com$
 ^(.*\.)?zzcartoon\.com$
 ^(.*\.)?phobos\.apple\.com$
+
+[outbound_block_list]
+# 禁止访问列表 广告拦截
+^(.*\.)?ad1.on\.cc$
+^(.*\.)?ad2.on\.cc$
+^(.*\.)?ad3.on\.cc$
+^(.*\.)?ad4.on\.cc$
+^(.*\.)?ad5.on\.cc$
+^(.*\.)?ad6.on\.cc$
+^(.*\.)?ad7.on\.cc$
+^(.*\.)?ad8.on\.cc$
+^(.*\.)?ad9.on\.cc$
+^(.*\.)?ad10.on\.cc$
+# Google
+(^|\.)\w*admob\w*\.\w*$
+(^|\.)2mdn\.net$
+(^|\.)ads\.gmodules\.com$
+(^|\.)ads\.google\.com$
+(^|\.)afd\.l\.google\.com$
+(^|\.)badad\.googleplex\.com$
+(^|\.)csi\.gstatic\.com$
+(^|\.)doubleclick(\.com|\.net)$
+(^|\.)google\-analytics\.com$
+(^|\.)googleadservices\.com$
+(^|\.)googleadsserving\.cn$
+(^|\.)googlecommerce\.com$
+(^|\.)googlesyndication\.com$
+(^|\.)googletagmanager\.com$
+(^|\.)mobileads\.google\.com$
+(^|\.)pagead\-tpc\.l\.google\.com$
+(^|\.)pagead\.google\.com$
+(^|\.)pagead\.l\.google\.com$
+(^|\.)partnerad\.l\.google\.com$
+(^|\.)service\.urchin\.com$
